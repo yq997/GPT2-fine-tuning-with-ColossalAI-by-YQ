@@ -1,0 +1,1 @@
+torchrun --standalone --nproc_per_node 4 --master_port 29800 finetune.py --target_f1 0.6
